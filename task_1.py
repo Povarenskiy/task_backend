@@ -33,7 +33,7 @@ context = [{
 
 # подключение к базе данных Mongodb
 client = pymongo.MongoClient('mongodb://localhost:27017')
-db = client['test_db']
+db = client['mongodb_task_1']
 
 collection = db['Account']
 result = db['Result']
