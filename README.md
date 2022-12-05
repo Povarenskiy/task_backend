@@ -1,31 +1,6 @@
 # Тестовое задание backend
 
-Работа с базами данных MongoDB и Sqlite3
-
-## Установка и запуск
-
-1. Склонировать репозиторий с Github.com:
-````
-https://github.com/Povarenskiy/task_backend.git
-````
-
-2. В директории проекта создать виртуальное окружение (venv/ — название виртуального окружения)
-````
-python -m venv venv
-````
-
-3. Активировать виртуальное окружение 
-````
-venv\Scripts\activate.bat - для Windows
-source venv/bin/activate - для Linux и MacOS
-````
-
-5. Установка зависимостей
-````
-pip install -r requirements.txt
-````
-
-6. Для работы с MongoDB потребуется установить MongoDB Server
+Пример работы с базами данных MongoDB и Sqlite3
 
 ## Техзадание 
 
@@ -108,3 +83,32 @@ pip install -r requirements.txt
 которые не нашли себе долг.
 Запрос можно делать к любой базе данных (mongodb, postgresql или другие) любым
 способом
+
+
+
+## Установка и запуск
+
+1. Склонировать репозиторий с Github.com:
+````
+https://github.com/Povarenskiy/task_backend.git
+````
+
+2. В директории проекта создать виртуальное окружение (venv/ — название виртуального окружения)
+````
+python -m venv venv
+````
+
+3. Активировать виртуальное окружение 
+````
+venv\Scripts\activate.bat - для Windows
+source venv/bin/activate - для Linux и MacOS
+````
+
+5. Установка зависимостей
+````
+pip install -r requirements.txt
+````
+
+6. Для работы с MongoDB потребуется установить MongoDB Server
+
+
